@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:a268b7c708d6dee453de2d3225535ce6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="sheet.png" width="512" height="1024">
+    <sprite n="ant_1" x="2" y="2" w="16" h="15"/>
+    <sprite n="ant_1@2x" x="20" y="2" w="32" h="30"/>
+    <sprite n="ant_2" x="54" y="2" w="16" h="15"/>
+    <sprite n="ant_2@2x" x="72" y="2" w="32" h="30"/>
+    <sprite n="anthill" x="106" y="2" w="32" h="25"/>
+    <sprite n="anthill@2x" x="140" y="2" w="64" h="50"/>
+    <sprite n="block_green_brick" x="206" y="2" w="16" h="16"/>
+    <sprite n="block_green_brick@2x" x="224" y="2" w="32" h="32"/>
+    <sprite n="block_green_ground" x="258" y="2" w="16" h="16"/>
+    <sprite n="block_green_ground@2x" x="276" y="2" w="32" h="32"/>
+    <sprite n="block_green_question" x="310" y="2" w="16" h="16"/>
+    <sprite n="block_green_question@2x" x="328" y="2" w="32" h="32"/>
+    <sprite n="block_grey_plain" x="362" y="2" w="16" h="16"/>
+    <sprite n="block_grey_plain@2x" x="380" y="2" w="32" h="32"/>
+    <sprite n="cloud_1" x="414" y="2" w="52" h="30"/>
+    <sprite n="cloud_1@2x" x="2" y="54" w="104" h="60"/>
+    <sprite n="cloud_2" x="108" y="54" w="35" h="18"/>
+    <sprite n="cloud_2@2x" x="145" y="54" w="70" h="36"/>
+    <sprite n="coin" x="217" y="54" w="10" h="14"/>
+    <sprite n="coin@2x" x="229" y="54" w="20" h="28"/>
+    <sprite n="door_closed" x="251" y="54" w="20" h="24"/>
+    <sprite n="door_closed@2x" x="273" y="54" w="40" h="48"/>
+    <sprite n="door_open" x="315" y="54" w="20" h="24"/>
+    <sprite n="door_open@2x" x="337" y="54" w="40" h="48"/>
+    <sprite n="hill_1" x="379" y="54" w="111" h="70"/>
+    <sprite n="hill_1@2x" x="2" y="126" w="222" h="140"/>
+    <sprite n="hill_2" x="226" y="126" w="71" h="36"/>
+    <sprite n="hill_2@2x" x="299" y="126" w="142" h="72"/>
+    <sprite n="kuwalio_jump" x="443" y="126" w="18" h="26"/>
+    <sprite n="kuwalio_jump@2x" x="463" y="126" w="36" h="52"/>
+    <sprite n="kuwalio_stand" x="2" y="268" w="18" h="26"/>
+    <sprite n="kuwalio_stand@2x" x="22" y="268" w="36" h="52"/>
+    <sprite n="kuwalio_walk1" x="60" y="268" w="18" h="26"/>
+    <sprite n="kuwalio_walk1@2x" x="80" y="268" w="36" h="52"/>
+    <sprite n="kuwalio_walk2" x="118" y="268" w="18" h="26"/>
+    <sprite n="kuwalio_walk2@2x" x="138" y="268" w="36" h="52"/>
+    <sprite n="kuwalio_walk3" x="176" y="268" w="18" h="26"/>
+    <sprite n="kuwalio_walk3@2x" x="196" y="268" w="36" h="52"/>
+    <sprite n="spikes" x="234" y="268" w="16" h="5"/>
+    <sprite n="spikes@2x" x="252" y="268" w="32" h="10"/>
+    <sprite n="tree" x="286" y="268" w="132" h="148"/>
+    <sprite n="tree@2x" x="2" y="418" w="264" h="296"/>
+</TextureAtlas>
