@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:55f3d8d9328da3b393b5c3b295e6f159$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="SampleTexture@2x.png" width="512" height="512">
+    <sprite n="cloud_1.png" x="262" y="146" w="102" h="60" oX="0" oY="0" oW="104" oH="60"/>
+    <sprite n="hill_1.png" x="262" y="4" w="218" h="138" oX="2" oY="2" oW="222" oH="140"/>
+    <sprite n="tree.png" x="4" y="4" w="254" h="292" oX="4" oY="4" oW="264" oH="296"/>
+</TextureAtlas>
