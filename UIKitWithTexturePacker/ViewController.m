@@ -20,7 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.mySprites = [[UIImage alloc] spritesWithContentsOfFile:@"sheet.xml"];
+    self.mySprites = [UIImage spritesWithContentsOfFile:@"sheet.xml"];
     UIImage *image = [self.mySprites objectForKey:@"kuwalio_jump@2x"];
     CGSize imageSize = image.size;
     CGSize screenSize = self.view.frame.size;

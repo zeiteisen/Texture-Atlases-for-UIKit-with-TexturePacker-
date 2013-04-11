@@ -6,11 +6,12 @@
 
 @implementation UIImage (Sprite)
 
-- (NSDictionary*)spritesWithContentsOfFile:(NSString*)filename
++ (NSDictionary*)spritesWithContentsOfFile:(NSString*)filename
 {
-	NSString* file = [[filename lastPathComponent] stringByDeletingPathExtension];
+	CGFloat scale = [UIScreen mainScreen].scale;
+    NSString* file = [[filename lastPathComponent] stringByDeletingPathExtension];
 	if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && 
-		([UIScreen mainScreen].scale == 2.0))
+		(scale == 2.0))
 	{
 		file = [NSString stringWithFormat:@"%@@2x", file];
 	}
@@ -30,12 +31,14 @@
 	NSArray* xmlSprites = [xmlTextureAtlas objectForKey:@"sprite"];
 	for (NSDictionary* xmlSprite in xmlSprites)
 	{
-		CGImageRef sprite = CGImageCreateWithImageInRect(spriteSheet, CGRectMake(
-                                                                                 [[xmlSprite objectForKey:@"x"] integerValue], 
-                                                                                 [[xmlSprite objectForKey:@"y"] integerValue], 
-                                                                                 [[xmlSprite objectForKey:@"w"] integerValue], 
-                                                                                 [[xmlSprite objectForKey:@"h"] integerValue]));
-		[tempDictionary setObject:[UIImage imageWithCGImage:sprite] forKey:[xmlSprite objectForKey:@"n"]];
+		CGRect unscaledRect = CGRectMake([[xmlSprite objectForKey:@"x"] integerValue],
+                                         [[xmlSprite objectForKey:@"y"] integerValue],
+                                         [[xmlSprite objectForKey:@"w"] integerValue],
+                                         [[xmlSprite objectForKey:@"h"] integerValue]);
+        CGImageRef sprite = CGImageCreateWithImageInRect(spriteSheet, unscaledRect);
+        // If this is a @2x image it is twice as big as it should be.
+        // Take care to consider the scale factor here.
+		[tempDictionary setObject:[UIImage imageWithCGImage:sprite scale:scale orientation:UIImageOrientationUp] forKey:[xmlSprite objectForKey:@"n"]];
 		CGImageRelease(sprite);
 	}
     
