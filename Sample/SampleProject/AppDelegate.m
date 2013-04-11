@@ -19,7 +19,7 @@
     [self.window makeKeyAndVisible];
     
     
-    self.mySprites      = [[UIImage alloc] spritesWithContentsOfFile:@"SampleTexture.xml"];
+    self.mySprites      = [UIImage spritesWithContentsOfFile:@"SampleTexture.xml"];
     
     UIImageView *cloud  = [[UIImageView alloc]initWithImage:[self.mySprites objectForKey:@"cloud_1.png"]];
     cloud.center = CGPointMake(150, 150);
