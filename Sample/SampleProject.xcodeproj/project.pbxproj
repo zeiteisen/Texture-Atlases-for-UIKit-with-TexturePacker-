@@ -38,8 +38,8 @@
 		887209D8166C3F0200F7AB5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		887209DA166C3F0200F7AB5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		887209DC166C3F0200F7AB5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		887209E3166C3F2200F7AB5C /* UIImage+Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Sprite.h"; path = "../../../UIImage+Sprite.h"; sourceTree = "<group>"; };
-		887209E4166C3F2200F7AB5C /* UIImage+Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Sprite.m"; path = "../../../UIImage+Sprite.m"; sourceTree = "<group>"; };
+		887209E3166C3F2200F7AB5C /* UIImage+Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Sprite.h"; path = "../../UIImage+Sprite.h"; sourceTree = "<group>"; };
+		887209E4166C3F2200F7AB5C /* UIImage+Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Sprite.m"; path = "../../UIImage+Sprite.m"; sourceTree = "<group>"; };
 		887209ED166C3F9900F7AB5C /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		887209EE166C3F9900F7AB5C /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		887209F1166C419200F7AB5C /* SampleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleTexture.png; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				887209EE166C3F9900F7AB5C /* XMLReader.m */,
 			);
 			name = XMLReader;
-			path = ../../../XMLReader;
+			path = ../../XMLReader;
 			sourceTree = "<group>";
 		};
 		887209F0166C419200F7AB5C /* final */ = {
@@ -259,6 +259,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../XMLReader;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -280,6 +281,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../XMLReader;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -328,6 +330,7 @@
 				887209E2166C3F0200F7AB5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

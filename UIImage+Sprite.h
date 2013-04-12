@@ -13,6 +13,6 @@
  @param filename the XML file to load, which should be added to your project's bundle
  @returns dictionary of UIImages
  */
-- (NSDictionary*)spritesWithContentsOfFile:(NSString*)filename;
++ (NSDictionary*)spritesWithContentsOfFile:(NSString*)filename;
 
 @end
