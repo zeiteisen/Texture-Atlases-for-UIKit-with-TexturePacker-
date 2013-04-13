@@ -1,7 +1,7 @@
 Texture-Atlases-for-UIKit-with-TexturePacker-
 =============================================
 
-![Alt text](https://github.com/zeiteisen/Texture-Atlases-for-UIKit-with-TexturePacker-/blob/master/Assets/sheet.png "Optional title")
+![Alt text](https://raw.github.com/zeiteisen/Texture-Atlases-for-UIKit-with-TexturePacker-/master/Assets/sheet.png "Optional title")
 
 code from:
 http://www.danielsefton.com/2012/07/texture-atlases-for-uikit-with-texturepacker/
