@@ -1,7 +1,7 @@
 Texture-Atlases-for-UIKit-with-TexturePacker-
 =============================================
 
-![Alt text](http://vickiwenderlich.s3-website-us-east-1.amazonaws.com/wp-content/uploads/2012/07/kuwalio_feature2.jpg "Optional title")
+![Alt text](https://github.com/zeiteisen/Texture-Atlases-for-UIKit-with-TexturePacker-/blob/master/Assets/sheet.png "Optional title")
 
 code from:
 http://www.danielsefton.com/2012/07/texture-atlases-for-uikit-with-texturepacker/
